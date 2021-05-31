@@ -1,0 +1,29 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nerko One', cursive;
+    background-color: rgb(181, 215, 228);   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
