@@ -12,18 +12,59 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
 
 /* header */
 
 h1 {
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px grey;
     color: white;
-    font-size: 50px;
+    font-size: 90px;
     padding: 20px;
+}
+
+/* main */
+
+.row {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.row .card {
+    float: left;
+    height: 240px;
+    width: calc(100% / 4 - 50px);
+    margin: 0 25px;
+    background-image: url('../img/pattern.png');
+    background-position: top;
+    background-size: 140%;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+.row .card.special {
+    background-color: white;
+    background-image: none;
+    padding: 15px;
+}
+
+.row .card.special .img-name {
+    color: rgb(213, 57, 130);
+    text-shadow: 1px 1px grey;
+    text-align: center;
+    font-size: 35px;
 }
