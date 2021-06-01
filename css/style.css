@@ -74,6 +74,7 @@ h1 {
     display: none;
     position: absolute;
     bottom: 5px;
+    width: 100%;
 }
 
 /* baloon special */
@@ -89,14 +90,13 @@ h1 {
     color: rgb(213, 57, 130);
     position: absolute;
     bottom: 5px;
-    left: 30px;
+    width: 100%;
 }
 
 /* baloon */
 
 .row .card.baloon:hover .img-name {
     color: rgb(213, 57, 130);
-    left: 30px;
 }
 
 .row .card.baloon:hover {
@@ -107,7 +107,6 @@ h1 {
 
 .row .card.tractor:hover .img-name {
     color: orange;
-    left: 50px;
 }
 
 .row .card.tractor:hover {
@@ -118,7 +117,6 @@ h1 {
 
 .row .card.submarine:hover .img-name {
     color: blue;
-    left: 25px;
 }
 
 .row .card.submarine:hover {
@@ -129,7 +127,6 @@ h1 {
 
 .row .card.bicycle:hover .img-name {
     color: gold;
-    left: 50px;
 }
 
 .row .card.bicycle:hover {
@@ -140,7 +137,6 @@ h1 {
 
 .row .card.ship:hover .img-name {
     color: red;
-    left: 20px;
 }
 
 .row .card.ship:hover {
@@ -151,7 +147,6 @@ h1 {
 
 .row .card.tram:hover .img-name {
     color: green;
-    left: 60px;
 }
 
 .row .card.tram:hover {
